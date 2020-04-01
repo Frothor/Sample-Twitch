@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>Sample_Api</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit.Analyzers" Version="6.2.4-develop.2532" />
+      <PackageReference Include="MassTransit.AspNetCore" Version="6.2.4-develop.2527" />
+      <PackageReference Include="NSwag.AspNetCore" Version="13.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sample.Components\Sample.Components.csproj" />
+      <ProjectReference Include="..\Sample.Contracts\Sample.Contracts.csproj" />
+    </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sample.Contracts\Sample.Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="6.2.4-develop.2532" />
+      <PackageReference Include="MassTransit.Analyzers" Version="6.2.4-develop.2532" />
+    </ItemGroup>
+
+</Project>
